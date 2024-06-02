@@ -353,8 +353,8 @@ button:active{
             font-size: 5rem;
         }
         .home .home-img img{
-            width: 70vw;
-            margin-top: 4rem;
+            width: 80vw;
+            margin-top: 3rem;
         }
     }
 }
@@ -431,7 +431,7 @@ button:active{
     transition: color .3s;
 }
 .services .single-service .description{
-    margin-bottom: 20px;
+    margin-bottom: 12px;
     font-size: 14px;
     transition: color .3s;
 }
@@ -457,11 +457,14 @@ button:active{
     .services{
         padding-bottom: 7rem;
     }
+    
 }
 @media (max-width:895px) {
     .services .service-container{
         grid-template-columns: repeat(1,1fr);
+        width: 280px;
     }
+    
 }
 
 
@@ -473,7 +476,7 @@ button:active{
     color: var(--text-color);
     border-radius: 1rem;
     padding: 2rem;
-    width: 85%;
+    width: 100%;
     margin: auto;
     margin-top: 2rem;
 }
@@ -743,6 +746,7 @@ form input , form textarea{
     .contact .container{
         margin: 0;
         padding: 0;
+        margin-left: 20px;
     }
     .contact .container .row{
         grid-template-columns: repeat(1,1fr);
